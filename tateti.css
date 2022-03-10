@@ -1,0 +1,24 @@
+.vacio{
+    background-color: rgb(170, 167, 167);
+    width: 150px;
+    height: 150px;
+
+}
+.letraX{
+    background-color: rgb(141, 25, 122);
+    width: 150px;
+    height: 150px;
+}
+.letraO{
+    background-color: rgb(240, 9, 220);
+    width: 150px;
+    height: 150px;
+}
+.prueba{
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+}
+.fila{
+    display: flex;
+}
