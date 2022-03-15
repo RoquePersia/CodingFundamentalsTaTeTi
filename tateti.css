@@ -1,24 +1,11 @@
-.vacio{
-    background-color: rgb(170, 167, 167);
-    width: 150px;
-    height: 150px;
+button{
+    width: 222px;
+    height: 222px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 500px;
+    margin: auto;
 
-}
-.letraX{
-    background-color: rgb(141, 25, 122);
-    width: 150px;
-    height: 150px;
-}
-.letraO{
-    background-color: rgb(240, 9, 220);
-    width: 150px;
-    height: 150px;
-}
-.prueba{
-    background-color: grey;
-    width: 150px;
-    height: 150px;
-}
-.fila{
-    display: flex;
 }
