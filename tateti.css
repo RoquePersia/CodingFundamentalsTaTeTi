@@ -1,0 +1,11 @@
+button{
+    width: 222px;
+    height: 222px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 500px;
+    margin: auto;
+
+}
