@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(204, 201, 201);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container #restart{
+    height: 25px;
+}
+
+.choose .X{
+    background-image: url('/image/A_black_image.jpg.webp') no-repeat;
+    background-size: contain;
+    cursor:cell;
+    justify-content: center 
+} 
+
+.juego{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.player_1{
+    display: flex;
+}
+
+.player_2{
+    display: flex;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: min-content;
+    justify-content: end;
+
+}
+
+.board button{
+    width: 200px;
+    height: 200px;
+}
+
+.choose{
+    display: flex;
+    grid-template-columns: 1fr;
+    height: 100px;
+}
+
+.choose p{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    height:50px;
+}
+.choose button{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.color_a{
+    background-color: red;
+}
+
+.color_b{
+    background-color: green;
+}
+
+.color_c{
+    background-color: blue;
+}
+
+.color_d{
+    background-color: pink;
+}
+
+#message {
+    font-size: 2em;
+    color: red;
+}

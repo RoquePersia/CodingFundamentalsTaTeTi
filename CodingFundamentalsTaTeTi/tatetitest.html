@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./tateti.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="juego">
+            <div class="datos">
+                <button id="restart">Revancha</button>
+                <button id="reset">Reiniciar juego</button>
+            <div id="quien_gano" >
+                <h2 id="ganador">Iniciando partida...</h2>
+            </div>
+            <div class="set_players">
+                <div class="set">
+                    <div class="set_player_1">
+                        <input id="texto_1" type="text" placeholder="Jugador 1" value="">
+                        <input id="boton_1" type="submit" value="Elegir">
+                        
+<!--                         <label for="piezas">Choose a pieza:</label>
+                        <select id="opcion">
+                          <option value="O" selected>O</option>
+                          <option value="X">X</option>
+                        </select> -->
+                    </div>
+                    <div class="set_player_2">
+                        <input id="texto_2" type="text" placeholder="Jugador 2" value="">
+                        <input id="boton_2" type="submit" value="Elegir">
+                    </div>
+                </div>
+                <div id="choose" class="choose">
+                    <p>Pick a color</p>
+                    <div class="choose_colors">
+                        <button class="color_a"></button>
+                        <button class="color_b"></button>
+                        <button class="color_c"></button>
+                        <button class="color_d"></button>
+                    </div>
+                </div>
+                <div class="setted">
+                    <div class="players">
+                        <div class="player_1">
+                            <div id="nombre_1"></div>
+                            <div id="puntaje_1"></div>
+                        </div>
+                        <div class="player_2">
+                            <div id="nombre_2"></div>
+                            <div id="puntaje_2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            </div>
+            
+            <div class="board">
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+                <button data-press="0"></button>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script src="./tictac.js">s</script>
+</body>
+</html>
